@@ -19,11 +19,10 @@ Building a basic Python Django Project site:
     ├── tests.py
     └── views.py 
 
-### Launch Locally
 ```
+### Launch Locally
 `
 $ python manage.py migrate
-
 $ python manage.py runserver
 `
 
