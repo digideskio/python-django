@@ -1,45 +1,15 @@
-<!DOCTYPE html>
+<!-- Block Content pulled into base.html -->
 
-{% load staticfiles %}
+{% extends "blog/base.html" %}
 
-<html>
-<head>
-	<meta charset="utf8"/>
-	<title>Python Django Project Blog</title>
+{% block content %}
 
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
-</head>
-<body>
-
-	<div class="page-header">
-		<h1><a href="/">Post List</a></h1>
-	</div>
-
-		<div class="content container">
-			<div class="row">
-				<div class="col-md-8">
-
-					{% for post in posts %}
-						<div class="post">
-							<h2><a href="">{{ post.title }}</a></h2>
-							<p>published: {{ post.published_date }}</p>
-							<p>{{ post.text|linebreaks }}</p>
-						</div>
-					{% endfor %}
-				</div>
-			</div>
+	{% for post in posts %}
+		<div class="post">
+			<h2><a href="{{ post.id }}">{{ post.title }}</a></h2>
+			<p>published: {{ post.published_date }}</p>
+			<p>{{ post.text|linebreaks }}</p>
 		</div>
-	
-</body>
-</html>
+	{% endfor %}
+
+{% endblock content %}
