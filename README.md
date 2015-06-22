@@ -21,9 +21,10 @@ Building a basic Python Django Project site:
 
 ```
 ### Launch Locally
-`
+```
 $ python manage.py migrate
-$ python manage.py runserver
-`
 
-*Default load at _http://127.0.0.1:8000/admin to login_*
+$ python manage.py runserver
+```
+
+*Default admin at _http://127.0.0.1:8000/admin to login_*
