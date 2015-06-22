@@ -23,6 +23,7 @@ Building a basic Python Django Project site:
 ```
 `
 $ python manage.py migrate
+
 $ python manage.py runserver
 `
 
