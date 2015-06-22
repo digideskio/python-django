@@ -3,7 +3,7 @@
 Building a basic Python Django Project site:
 
 ## Base Build
-
+```
 ├── mysite
 |       __init__.py
 |       settings.py
@@ -20,7 +20,8 @@ Building a basic Python Django Project site:
     └── views.py 
 
 ### Launch Locally
-'''
+```
+
 $ python manage.py migrate
 $ python manage.py runserver
 
