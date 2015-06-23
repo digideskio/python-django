@@ -3,6 +3,7 @@ from django.utils import timezone
 from .models import Post  				# . means current directory or current application
 from .forms import PostForm
 from django.shortcuts import redirect
+from django.contrib.auth.decorators import login_required
 
 # Blog Views
 
@@ -14,16 +15,14 @@ from django.shortcuts import redirect
 '''
 
 def post_list(request):
-	#if Post.objects.count() != 0: 
 		posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
 		return render(request, 'blog/post_list.html', {'posts' : posts})
-	#else:
-		#return render(request, 'blog/post_list.html', {'posts' : None})
 
 def post_detail(request, pk):
 	post = get_object_or_404(Post, pk=pk)
 	return render(request, 'blog/post_detail.html', {'post': post})
-
+	
+@login_required
 def post_new(request):
 	if request.method == "POST":
 		form = PostForm(request.POST)
@@ -37,7 +36,9 @@ def post_new(request):
 		form = PostForm()
 	return render(request, 'blog/post_edit.html', {'form': form})
 
+@login_required
 def post_edit(request, pk):
+
 	post = get_object_or_404(Post, pk=pk)
 	if request.method == "POST":
 		form = PostForm(request.POST, instance=post)

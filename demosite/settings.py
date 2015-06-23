@@ -16,6 +16,7 @@ import dj_database_url
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
+LOGIN_REDIRECT_URL = '/'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -106,8 +107,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # NOTE:  ADDING BELOW FOR PRODUCTION/DEPLOYMENT SETTINGS
 
-#DATABASES['default'] = dj_database_url.config()
-DATABASES = {'default': dj_database_url.config(default='postgres://localhost')}
+DATABASES['default'] = dj_database_url.config()
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
@@ -115,7 +115,7 @@ ALLOWED_HOSTS = ['*']
 
 DEBUG = True
 
-#try:
-#    from .local_settings import *
-#except ImportError:
- #   pass
+try:
+    from .local_settings import *
+except ImportError:
+    pass
