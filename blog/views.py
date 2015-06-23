@@ -14,11 +14,11 @@ from django.shortcuts import redirect
 '''
 
 def post_list(request):
-	if Post.objects.count() != 0: 
+	#if Post.objects.count() != 0: 
 		posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
 		return render(request, 'blog/post_list.html', {'posts' : posts})
-	else:
-		return render(request, 'blog/post_list.html', {'posts' : None})
+	#else:
+		#return render(request, 'blog/post_list.html', {'posts' : None})
 
 def post_detail(request, pk):
 	post = get_object_or_404(Post, pk=pk)
