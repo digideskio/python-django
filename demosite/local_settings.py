@@ -13,14 +13,17 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 import dj_database_url
+from settings import *
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+        
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
-SECRET_KEY = os.environ['DJANGO_SECRET_KEY'];
+# SECRET_KEY = os.environ['DJANGO_SECRET_KEY'];
 
 DATABASES = {
     'default': {
@@ -29,5 +32,3 @@ DATABASES = {
     }
 }
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True

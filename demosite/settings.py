@@ -22,7 +22,8 @@ LOGIN_REDIRECT_URL = '/'
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['DJANGO_SECRET_KEY'];
+# SECRET_KEY = os.environ['DJANGO_SECRET_KEY'];
+SECRET_KEY = 'v0tp$5_+@kfxt-h1q_df)ruz+4x=$b_+!w-zx11z5=kla1yqnm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
