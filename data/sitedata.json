@@ -1,0 +1,505 @@
+[
+{
+ "fields": {
+  "model": "logentry",
+  "app_label": "admin"
+ },
+ "model": "contenttypes.contenttype",
+ "pk": 1
+},
+{
+ "fields": {
+  "model": "permission",
+  "app_label": "auth"
+ },
+ "model": "contenttypes.contenttype",
+ "pk": 2
+},
+{
+ "fields": {
+  "model": "group",
+  "app_label": "auth"
+ },
+ "model": "contenttypes.contenttype",
+ "pk": 3
+},
+{
+ "fields": {
+  "model": "user",
+  "app_label": "auth"
+ },
+ "model": "contenttypes.contenttype",
+ "pk": 4
+},
+{
+ "fields": {
+  "model": "contenttype",
+  "app_label": "contenttypes"
+ },
+ "model": "contenttypes.contenttype",
+ "pk": 5
+},
+{
+ "fields": {
+  "model": "session",
+  "app_label": "sessions"
+ },
+ "model": "contenttypes.contenttype",
+ "pk": 6
+},
+{
+ "fields": {
+  "model": "post",
+  "app_label": "blog"
+ },
+ "model": "contenttypes.contenttype",
+ "pk": 7
+},
+{
+ "fields": {
+  "expire_date": "2015-07-05T09:22:00.497Z",
+  "session_data": "Zjk2OTYyMjQwMmM0ZjIyZDlkMTMyOGI1ZjNmODI5YjY4MmUxNGU2NDp7Il9hdXRoX3VzZXJfaGFzaCI6ImQ5YjFkYmQwYWZmOWZhYWQ3NjFjZDEyYWI1NjdmMjdjYjI0ZGNjMDAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0="
+ },
+ "model": "sessions.session",
+ "pk": "j7tz8lzbvnpcqw8l57abiky1pen1i71w"
+},
+{
+ "fields": {
+  "codename": "add_logentry",
+  "name": "Can add log entry",
+  "content_type": 1
+ },
+ "model": "auth.permission",
+ "pk": 1
+},
+{
+ "fields": {
+  "codename": "change_logentry",
+  "name": "Can change log entry",
+  "content_type": 1
+ },
+ "model": "auth.permission",
+ "pk": 2
+},
+{
+ "fields": {
+  "codename": "delete_logentry",
+  "name": "Can delete log entry",
+  "content_type": 1
+ },
+ "model": "auth.permission",
+ "pk": 3
+},
+{
+ "fields": {
+  "codename": "add_permission",
+  "name": "Can add permission",
+  "content_type": 2
+ },
+ "model": "auth.permission",
+ "pk": 4
+},
+{
+ "fields": {
+  "codename": "change_permission",
+  "name": "Can change permission",
+  "content_type": 2
+ },
+ "model": "auth.permission",
+ "pk": 5
+},
+{
+ "fields": {
+  "codename": "delete_permission",
+  "name": "Can delete permission",
+  "content_type": 2
+ },
+ "model": "auth.permission",
+ "pk": 6
+},
+{
+ "fields": {
+  "codename": "add_group",
+  "name": "Can add group",
+  "content_type": 3
+ },
+ "model": "auth.permission",
+ "pk": 7
+},
+{
+ "fields": {
+  "codename": "change_group",
+  "name": "Can change group",
+  "content_type": 3
+ },
+ "model": "auth.permission",
+ "pk": 8
+},
+{
+ "fields": {
+  "codename": "delete_group",
+  "name": "Can delete group",
+  "content_type": 3
+ },
+ "model": "auth.permission",
+ "pk": 9
+},
+{
+ "fields": {
+  "codename": "add_user",
+  "name": "Can add user",
+  "content_type": 4
+ },
+ "model": "auth.permission",
+ "pk": 10
+},
+{
+ "fields": {
+  "codename": "change_user",
+  "name": "Can change user",
+  "content_type": 4
+ },
+ "model": "auth.permission",
+ "pk": 11
+},
+{
+ "fields": {
+  "codename": "delete_user",
+  "name": "Can delete user",
+  "content_type": 4
+ },
+ "model": "auth.permission",
+ "pk": 12
+},
+{
+ "fields": {
+  "codename": "add_contenttype",
+  "name": "Can add content type",
+  "content_type": 5
+ },
+ "model": "auth.permission",
+ "pk": 13
+},
+{
+ "fields": {
+  "codename": "change_contenttype",
+  "name": "Can change content type",
+  "content_type": 5
+ },
+ "model": "auth.permission",
+ "pk": 14
+},
+{
+ "fields": {
+  "codename": "delete_contenttype",
+  "name": "Can delete content type",
+  "content_type": 5
+ },
+ "model": "auth.permission",
+ "pk": 15
+},
+{
+ "fields": {
+  "codename": "add_session",
+  "name": "Can add session",
+  "content_type": 6
+ },
+ "model": "auth.permission",
+ "pk": 16
+},
+{
+ "fields": {
+  "codename": "change_session",
+  "name": "Can change session",
+  "content_type": 6
+ },
+ "model": "auth.permission",
+ "pk": 17
+},
+{
+ "fields": {
+  "codename": "delete_session",
+  "name": "Can delete session",
+  "content_type": 6
+ },
+ "model": "auth.permission",
+ "pk": 18
+},
+{
+ "fields": {
+  "codename": "add_post",
+  "name": "Can add post",
+  "content_type": 7
+ },
+ "model": "auth.permission",
+ "pk": 19
+},
+{
+ "fields": {
+  "codename": "change_post",
+  "name": "Can change post",
+  "content_type": 7
+ },
+ "model": "auth.permission",
+ "pk": 20
+},
+{
+ "fields": {
+  "codename": "delete_post",
+  "name": "Can delete post",
+  "content_type": 7
+ },
+ "model": "auth.permission",
+ "pk": 21
+},
+{
+ "fields": {
+  "username": "test",
+  "first_name": "",
+  "last_name": "",
+  "is_active": true,
+  "is_superuser": true,
+  "is_staff": true,
+  "last_login": "2015-06-23T04:09:12.410Z",
+  "groups": [],
+  "user_permissions": [],
+  "password": "pbkdf2_sha256$20000$zda9nof7OGwq$Eybj9LjfjgDD5M31/qeIsbQMINHCtu7VOyzcN1NzYtA=",
+  "email": "test@test.com",
+  "date_joined": "2015-06-21T09:21:35.156Z"
+ },
+ "model": "auth.user",
+ "pk": 1
+},
+{
+ "fields": {
+  "username": "Author",
+  "first_name": "",
+  "last_name": "",
+  "is_active": true,
+  "is_superuser": false,
+  "is_staff": false,
+  "last_login": "2015-06-23T04:10:38.928Z",
+  "groups": [],
+  "user_permissions": [],
+  "password": "pbkdf2_sha256$20000$nmCDRSPrhRur$jsCyScVyI7vWTQVX6M/RA9F92mweaCbCDM9OvDYsETk=",
+  "email": "",
+  "date_joined": "2015-06-21T09:43:16.284Z"
+ },
+ "model": "auth.user",
+ "pk": 2
+},
+{
+ "fields": {
+  "created_date": "2015-06-21T09:42:38Z",
+  "text": "\"Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.\"\r\n\r\n",
+  "title": "First Blog Post ",
+  "published_date": "2015-06-22T22:36:39.484Z",
+  "author": 1
+ },
+ "model": "blog.post",
+ "pk": 1
+},
+{
+ "fields": {
+  "created_date": "2015-06-21T09:50:22Z",
+  "text": "No, Mofo\r\nLook, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfin' house, fin' up the way the he talks. Motherfker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfker, know what I'm sayin'?\r\n\r\n\r\n",
+  "title": "Second Blog Post",
+  "published_date": "2015-06-21T09:54:17Z",
+  "author": 2
+ },
+ "model": "blog.post",
+ "pk": 2
+},
+{
+ "fields": {
+  "created_date": "2015-06-21T09:54:21Z",
+  "text": "<!-- start slipsum code -->\r\n\r\n<h1>We happy?</h1>\r\nNow that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.\r\n\r\n<h1>Is she dead, yes or no?</h1>\r\nNormally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.\r\n\r\n<h1>I'm serious as a heart attack</h1>\r\nWell, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.\r\n\r\n<!-- please do not remove this line -->\r\n\r\n<div style=\"display:none;\">\r\n<a href=\"http://slipsum.com\">lorem ipsum</a></div>\r\n\r\n<!-- end slipsum code -->\r\n",
+  "title": "Blog Post 3",
+  "published_date": null,
+  "author": 2
+ },
+ "model": "blog.post",
+ "pk": 3
+},
+{
+ "fields": {
+  "created_date": "2015-06-21T09:54:50Z",
+  "text": "<!-- start slipsum code -->\r\n\r\n<h2>Are you ready for the truth?</h2>\r\n<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee. </p>\r\n\r\n<h2>Is she dead, yes or no?</h2>\r\n<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>\r\n\r\n<h2>Uuummmm, this is a tasty burger!</h2>\r\n<p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>\r\n\r\n<!-- please do not remove this line -->\r\n\r\n<div style=\"display:none;\">\r\n<a href=\"http://slipsum.com\">lorem ipsum</a></div>\r\n\r\n<!-- end slipsum code -->\r\n",
+  "title": "4th Blog Post",
+  "published_date": null,
+  "author": 2
+ },
+ "model": "blog.post",
+ "pk": 4
+},
+{
+ "fields": {
+  "created_date": "2015-06-22T18:36:25.030Z",
+  "text": "Using the command: python manage.py shell -- to run Django from the command line!",
+  "title": "Using the Django InteractiveConsole",
+  "published_date": null,
+  "author": 2
+ },
+ "model": "blog.post",
+ "pk": 5
+},
+{
+ "fields": {
+  "created_date": "2015-06-22T18:39:13.000Z",
+  "text": "A list of objects of a given Model.  QuerySet allows you to read data from the database, filter it, and order it.  To show all objects of Model Post we use: Post.objects.all()",
+  "title": "Django QuerySets",
+  "published_date": "2015-06-22T18:47:13.562Z",
+  "author": 2
+ },
+ "model": "blog.post",
+ "pk": 6
+},
+{
+ "fields": {
+  "created_date": "2015-06-22T19:26:20Z",
+  "text": "Cupcake ipsum dolor sit amet jujubes chocolate macaroon chocolate. Jelly cookie jelly-o apple pie bear claw powder. Jelly-o croissant jelly cotton candy. Tootsie roll oat cake cotton candy gingerbread danish tootsie roll macaroon. Caramels cheesecake jelly cookie topping. Chocolate chocolate bar powder bear claw icing brownie. Apple pie cheesecake gummies candy canes carrot cake chocolate topping. Dessert halvah sweet.\r\n\r\nPie cupcake liquorice tootsie roll icing sweet roll cotton candy souffl\u00e9. Sesame snaps topping liquorice tiramisu danish chocolate cake dessert. Sugar plum cotton candy croissant cookie. Pie jelly sugar plum brownie bonbon candy canes cake. Lollipop sweet gummies cake tart gingerbread gummies chocolate bar cheesecake. Sweet marshmallow jujubes icing chocolate cake chocolate cake tiramisu lollipop. Dessert macaroon carrot cake tiramisu tootsie roll pie dessert fruitcake chocolate. Muffin bear claw bonbon pudding powder pastry biscuit chocolate bar. Lollipop cheesecake tart gummies sesame snaps gingerbread. Gingerbread wafer liquorice tiramisu jelly beans chocolate bar fruitcake croissant cake.\r\n\r\nFruitcake candy wafer oat cake cake lollipop. Brownie gummi bears brownie chocolate candy canes macaroon cotton candy gummies pastry. Marshmallow cake croissant halvah souffl\u00e9. Donut biscuit caramels marzipan liquorice candy canes fruitcake gingerbread toffee. Tart tootsie roll marshmallow tart. Gingerbread chupa chups marshmallow. Lemon drops jelly cupcake. Sesame snaps tiramisu pastry. Cupcake lollipop icing tiramisu lemon drops sugar plum brownie. Topping pie gummi bears lemon drops marshmallow chocolate bar chocolate marshmallow.",
+  "title": "Yeaa Cupcakes!!",
+  "published_date": "2015-06-22T19:27:38Z",
+  "author": 2
+ },
+ "model": "blog.post",
+ "pk": 7
+},
+{
+ "fields": {
+  "created_date": "2015-06-22T22:13:58.789Z",
+  "text": "Testing Django forms ... POSTing and updating the database!\r\n\r\nStill here after test~!",
+  "title": "Another test post",
+  "published_date": "2015-06-22T22:32:33.717Z",
+  "author": 1
+ },
+ "model": "blog.post",
+ "pk": 8
+},
+{
+ "fields": {
+  "created_date": "2015-06-22T22:31:53.943Z",
+  "text": "Let's see if it update this blog or create a new one.",
+  "title": "Let's see... (Update Test?)",
+  "published_date": "2015-06-22T22:31:53.946Z",
+  "author": 1
+ },
+ "model": "blog.post",
+ "pk": 9
+},
+{
+ "fields": {
+  "created_date": "2015-06-23T03:24:23.166Z",
+  "text": "Just checking if this is really fixed.",
+  "title": "Is this really fixed?",
+  "published_date": "2015-06-23T03:24:23.171Z",
+  "author": 1
+ },
+ "model": "blog.post",
+ "pk": 10
+},
+{
+ "fields": {
+  "action_flag": 1,
+  "action_time": "2015-06-21T09:43:16.426Z",
+  "object_repr": "Author",
+  "object_id": "2",
+  "change_message": "",
+  "user": 1,
+  "content_type": 4
+ },
+ "model": "admin.logentry",
+ "pk": 1
+},
+{
+ "fields": {
+  "action_flag": 1,
+  "action_time": "2015-06-21T09:50:22.114Z",
+  "object_repr": "First Blog Post ",
+  "object_id": "1",
+  "change_message": "",
+  "user": 1,
+  "content_type": 7
+ },
+ "model": "admin.logentry",
+ "pk": 2
+},
+{
+ "fields": {
+  "action_flag": 1,
+  "action_time": "2015-06-21T09:54:21.432Z",
+  "object_repr": "Second Blog Post",
+  "object_id": "2",
+  "change_message": "",
+  "user": 1,
+  "content_type": 7
+ },
+ "model": "admin.logentry",
+ "pk": 3
+},
+{
+ "fields": {
+  "action_flag": 1,
+  "action_time": "2015-06-21T09:54:49.959Z",
+  "object_repr": "Blog Post 3",
+  "object_id": "3",
+  "change_message": "",
+  "user": 1,
+  "content_type": 7
+ },
+ "model": "admin.logentry",
+ "pk": 4
+},
+{
+ "fields": {
+  "action_flag": 1,
+  "action_time": "2015-06-21T09:56:54.062Z",
+  "object_repr": "4th Blog Post",
+  "object_id": "4",
+  "change_message": "",
+  "user": 1,
+  "content_type": 7
+ },
+ "model": "admin.logentry",
+ "pk": 5
+},
+{
+ "fields": {
+  "action_flag": 1,
+  "action_time": "2015-06-22T19:27:47.378Z",
+  "object_repr": "Yeaa Cupcakes!!",
+  "object_id": "7",
+  "change_message": "",
+  "user": 1,
+  "content_type": 7
+ },
+ "model": "admin.logentry",
+ "pk": 6
+},
+{
+ "fields": {
+  "action_flag": 2,
+  "action_time": "2015-06-22T19:30:00.685Z",
+  "object_repr": "Second Blog Post",
+  "object_id": "2",
+  "change_message": "Changed text.",
+  "user": 1,
+  "content_type": 7
+ },
+ "model": "admin.logentry",
+ "pk": 7
+},
+{
+ "fields": {
+  "action_flag": 2,
+  "action_time": "2015-06-23T04:10:04.555Z",
+  "object_repr": "Author",
+  "object_id": "2",
+  "change_message": "Changed password.",
+  "user": 1,
+  "content_type": 4
+ },
+ "model": "admin.logentry",
+ "pk": 8
+}
+]
