@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 # Blog Views
 
 '''
-	Views are supposed to do: connect models and templates. In our post_list view we will need
+	Views: connect models and templates. In our post_list view we will need
 	to take models we want to display and pass them to the template. So basically in a view we 
 	decide what (model) will be displayed in a template.
 
